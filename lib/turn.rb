@@ -2,10 +2,10 @@
 
 #require_relative '..bin/turn'
 
-def display_board(board)
-  puts "   |   |   "
-  puts "-" * 11
-  puts "   |   |   "
-  puts "-" * 11
-  puts "   |   |   "
-end
+# def display_board(board)
+#   puts "   |   |   "
+#   puts "-" * 11
+#   puts "   |   |   "
+#   puts "-" * 11
+#   puts "   |   |   "
+# end

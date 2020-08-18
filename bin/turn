@@ -4,7 +4,7 @@ require_relative '..bin/turn'
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
 
-def display_board
+def display_board(board)
   puts "   |   |   "
   puts "-" * 11
   puts "   |   |   "

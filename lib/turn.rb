@@ -40,6 +40,6 @@ def turn(board)
     move(board)
     display(board)
   else
-    turn
+    turn(board)
   end
 end

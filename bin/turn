@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative '..bin/turn'
+require_relative '..lib/turn'
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
 
@@ -11,5 +11,3 @@ def display_board(board)
   puts "-" * 11
   puts "   |   |   "
 end
-
-puts display_board(board)

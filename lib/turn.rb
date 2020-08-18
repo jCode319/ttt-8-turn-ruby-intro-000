@@ -21,8 +21,9 @@ end
 
 
 def valid_move?(board, index)
-  if board[index] == rand()
-
-  end
-
+  if index.between?(0,8) && !position_taken(board, index)
+    true
+  else
+    false
+  end 
 end

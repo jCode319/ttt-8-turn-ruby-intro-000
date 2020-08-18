@@ -28,6 +28,6 @@ def valid_move?(board, index)
   end
 end
 
-def move(board, index, player = "X")
+def move(board, index)
   input_to_index
 end

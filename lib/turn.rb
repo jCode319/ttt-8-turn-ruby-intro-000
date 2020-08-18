@@ -14,3 +14,16 @@ end
 def input_to_index(user_input)
   user_input = user_input.to_i - 1
 end
+
+def position_taken(board, index)
+  if board[index] != " "
+  end
+end
+
+
+def valid_move?(board, index)
+  if board[index] == rand()
+    
+  end
+
+end

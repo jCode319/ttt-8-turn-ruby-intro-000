@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-#require_relative '..bin/turn'
+require_relative '..bin/turn'
 
 def display_board(board)
   puts "   |   |   "

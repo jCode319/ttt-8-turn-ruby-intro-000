@@ -11,3 +11,5 @@ def display_board(board)
   puts "-" * 11
   puts "   |   |   "
 end
+
+display_board(board)
